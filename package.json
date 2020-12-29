@@ -1,10 +1,9 @@
 {
-  "name": "react-native-slideable-calender",
+  "name": "@pembajak/react-native-slideable-calender",
   "version": "0.1.0",
   "description": "Slideable calender for react native",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/src/index.d.ts",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
@@ -141,13 +140,10 @@
     "output": "lib",
     "targets": [
       "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
+      "module"
     ]
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0"
   }
 }

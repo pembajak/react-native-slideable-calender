@@ -9,6 +9,7 @@
     "start": "react-native start"
   },
   "dependencies": {
+    "date-fns": "^1.29.0",
     "react": "16.13.1",
     "react-native": "0.63.4"
   },
